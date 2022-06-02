@@ -9,6 +9,7 @@ function App() {
         <h1>
          HELLO WORLD 
         </h1>
+        <p className="paragrafo"> teste </p>
         <a
           className="App-link"
           href="https://reactjs.org"

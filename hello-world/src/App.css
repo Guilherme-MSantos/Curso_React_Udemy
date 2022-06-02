@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.paragrafo {
+   border:03px solid red;
+   padding:10px;
+   font-weight: 400;
+   font-style: italic;
+   text-decoration:underline ;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
