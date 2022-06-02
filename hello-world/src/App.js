@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
-         HELLO WORLD :)
+         HELLO WORLD 
         </h1>
         <a
           className="App-link"
@@ -19,7 +19,8 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
+  
 }
 
 export default App;
