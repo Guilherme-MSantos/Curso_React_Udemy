@@ -10,13 +10,15 @@ const RenderizaçãoComponentesLista = () => {
   return (
     <div>
       <h2> Renderização Componentes em listas </h2>
-      {cars.map((car)=>{
+      {cars.map((car)=>(
         <div>
           <p>{car.id}</p>
           <p>{car.brand}</p>
           <p>{car.color}</p>
-        </div>;
-      })}
+        </div>
+      )
+        
+      )}
     </div>
   );
 }
