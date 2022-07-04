@@ -1,10 +1,9 @@
-import React from 'react'
+import { useState } from "react";
 
 const RenderizacaoCondicional = () => {
-
   const [x] = useState(true);
 
-const [name,setName] = useState("Marcelo")
+  const [name, setName] = useState("Marcelo");
   return (
     <div>
       Renderização Condicional
@@ -20,10 +19,9 @@ const [name,setName] = useState("Marcelo")
           <p>Nome não encontrado</p>
         </div>
       )}
-
-      <button onClick={()=> setName("João")}> Mudar o nome para João </button>
+      <button onClick={() => setName("João")}> Mudar o nome para João </button>
     </div>
   );
-}
+};
 
-export default RenderizacaoCondicional
+export default RenderizacaoCondicional;
