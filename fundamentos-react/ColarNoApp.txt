@@ -1,0 +1,49 @@
+ <FirstComponent />
+      <TemplateExpressions />
+      <Events />
+      <Challenge />
+      <Imagens />
+      <Hooks />
+      <ListRender />
+      <RenderizacaoCondicional />
+      <Props name="Guilherme Moreira dos Santos " />{" "}
+      {/***pode passar o props tanto variáveis como estados */}
+      <PropsDestructuring
+        brand="Tesla"
+        km={20000}
+        color="Branco"
+        bomEstado={true}
+      />
+      {/**Reaproveitar componentes */}
+      <PropsDestructuring
+        brand="VW"
+        km={100000}
+        color="Vermelho"
+        bomEstado={false}
+      />
+      {/* loop em array de objetos */}
+      {cars.map((car) => (
+        <PropsDestructuring
+          key={car.id}
+          brand={car.brand}
+          km={car.km}
+          color={car.color}
+          bomEstado={car.bomEstado}
+        />
+      ))}
+
+      {/* Fragment  */}
+      <Fragment propFragment = "test"/>
+
+      {/* Children Props */}
+
+      <Container title="teste 01">
+        <p> Esse é o conteúdo </p>
+      </Container>
+
+      {/* executar função como prop */}
+      <ExecuteFunction myFunction={showMessage}/>
+
+      {/* state lift */}
+      <Message msg={message}/>
+      <ChangeMessageState handleMessage={handleMessage}/> 
