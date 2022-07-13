@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa",
+      "price": 59.9
+    },
+    {
+      "id": 2,
+      "name": "Calça vermelha",
+      "price": 90
+    },
+    {
+      "id": 3,
+      "name": "Boné aba reta",
+      "price": 29.9
+    },
+    {
+      "name": "Mangá 1 vol",
+      "price": "29.99",
+      "id": 4
+    },
+    {
+      "name": "teclado gamer ",
+      "price": "205",
+      "id": 5
+    },
+    {
+      "name": "action figure psykos",
+      "price": "2005",
+      "id": 6
+    },
+    {
+      "name": "action figure Garou God ",
+      "price": "3000",
+      "id": 7
+    },
+    {
+      "name": "Tecnoblog",
+      "price": "50",
+      "id": 8
+    },
+    {
+      "name": "Nlw return",
+      "price": "89",
+      "id": 9
+    }
+  ]
+}
