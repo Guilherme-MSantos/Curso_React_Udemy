@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "name": "Mangá 1 vol",
+      "price": "29.99",
+      "id": 1
+    },
+    {
+      "name": "teclado gamer ",
+      "price": "205",
+      "id": 2
+    },
+    {
+      "name": "action figure psykos",
+      "price": "2005",
+      "id": 3
+    },
+    {
+      "name": "action figure Garou God ",
+      "price": "3000",
+      "id": 4
+    }
+  ]
+}
